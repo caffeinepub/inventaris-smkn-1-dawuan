@@ -1,0 +1,24 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Display school logo on the login page",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "summary": "Display the school logo from localStorage settings on the Login page above the login form, with fallback placeholder if no logo is uploaded",
+      "acceptanceCriteria": [
+        "When a school logo has been uploaded via Admin Settings, it is visible on the login page above the login form.",
+        "When no logo is uploaded, a fallback icon or placeholder is displayed in the same position.",
+        "The logo display is consistent in style with how it appears in the sidebar (Layout.tsx).",
+        "The rest of the login form layout and functionality remains unchanged."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Login.tsx",
+          "operation": "modify",
+          "description": "Add logo display above the login form by reading settings from localStorage using the storage utility. Display the logo image if settings.schoolLogo exists, otherwise show a School icon (lucide-react) as fallback. Style the logo container consistently with the sidebar logo in Layout.tsx (rounded-lg with appropriate sizing). Position the logo centered above the existing login form card without modifying the form's authentication logic or layout."
+        }
+      ]
+    }
+  ]
+}

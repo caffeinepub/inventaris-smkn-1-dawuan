@@ -1,0 +1,24 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-on-the-login-page-frontend-src-pages-login-tsx-read-the-school-logo-from-localstorage-settings-the-same-source-used-by-layout-tsx-and-display-it-prominently-above-the-login-form-if-no-logo-has-been-uploaded-show-the-same-fallback-placeholder-icon-used-elsewhere-in-the-app",
+      "featureTitle": "On the Login page (frontend/src/pages/Login.tsx), read the school logo from localStorage settings (the same source used by Layout.tsx) and display it prominently above the login form. If no logo has been uploaded, show the same fallback placeholder/icon used elsewhere in the app.",
+      "files": [
+        "frontend/src/pages/Login.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0",
+        "blob-storage@4.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "App with school logo feature — logo displayed on printed documents and on the login page.",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-on-the-login-page-frontend-src-pages-login-tsx-read-the-school-logo-from-localstorage-settings-the-same-source-used-by-layout-tsx-and-display-it-prominently-above-the-login-form-if-no-logo-has-been-uploaded-show-the-same-fallback-placeholder-icon-used-elsewhere-in-the-app",
+      "title": "On the Login page (frontend/src/pages/Login.tsx), read the school logo from localStorage settings (the same source used by Layout.tsx) and display it prominently above the login form. If no logo has been uploaded, show the same fallback placeholder/icon used elsewhere in the app.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Display school logo on the login page",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "SMKN 1 Dawuan Inventory",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

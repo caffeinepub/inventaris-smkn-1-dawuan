@@ -1,0 +1,37 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-28T16:44:51.439Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 1,
+    "implemented": 1,
+    "items": [
+      {
+        "id": "REQ-1",
+        "summary": "On the Login page (frontend/src/pages/Login.tsx), read the school logo from localStorage settings (the same source used by Layout.tsx) and display it prominently above the login form. If no logo has been uploaded, show the same fallback placeholder/icon used elsewhere in the app.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/Login.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/Login.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/src/pages/Login.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

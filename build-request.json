@@ -1,0 +1,40 @@
+{
+  "kind": "build_request",
+  "title": "Display school logo on the login page",
+  "projectName": "SMKN 1 Dawuan Inventory",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "On the Login page (frontend/src/pages/Login.tsx), read the school logo from localStorage settings (the same source used by Layout.tsx) and display it prominently above the login form. If no logo has been uploaded, show the same fallback placeholder/icon used elsewhere in the app.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-10"
+        ],
+        "quotes": [
+          "logo juga ditampilkan di halaman login"
+        ]
+      },
+      "acceptanceCriteria": [
+        "When a school logo has been uploaded via Admin Settings, it is visible on the login page above the login form.",
+        "When no logo is uploaded, a fallback icon or placeholder is displayed in the same position.",
+        "The logo display is consistent in style with how it appears in the sidebar (Layout.tsx).",
+        "The rest of the login form layout and functionality remains unchanged."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify frontend/src/hooks/useInternetIdentity.ts, frontend/src/hooks/useActor.ts, frontend/src/main.tsx, or any files under frontend/src/components/ui.",
+    "Logo must be read from localStorage settings — no backend changes required."
+  ],
+  "nonGoals": [
+    "Changing the login authentication logic.",
+    "Adding logo resize or reposition controls on the login page.",
+    "Modifying the Admin Settings logo upload feature."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}
